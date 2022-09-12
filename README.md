@@ -1,7 +1,21 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 
 # avobjects
-Implementation for ECCV20 paper "Self-Supervised Learning of audio-visual objects from video"
+RE-Implementation for ECCV20 paper "Self-Supervised Learning of audio-visual objects from video"
+
+
+##Tested the performance of different video sources.
+
+
+1. Different speakers under the continuous video (only one will appear on the screen): failed to distinguish well.
+
+2. Not very good for multiple speakers (n_speaker>4)
+
+3. Poor results when multiple audios are similar. Failure to distinguish similar audio from different speakers.
+
+
+
+
 
 ### [Project page](https://www.robots.ox.ac.uk/~vgg/research/avobjects/) | [Paper](https://arxiv.org/pdf/2008.04237.pdf)
 
