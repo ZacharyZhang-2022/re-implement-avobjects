@@ -1,11 +1,11 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 
 # avobjects
-##This repository is re-implementation for "Self-Supervised Learning of audio-visual objects from video" which from ECCV20 paper.
+## This repository is re-implementation for "Self-Supervised Learning of audio-visual objects from video" which from ECCV20 paper.
 
 
 # In the re-implementation project, the focus is on testing the performance of the model for different kinds of video resources.
-##(The corresponding example can be found in the "**_speakers_output" file)
+## (The corresponding example can be found in the "**_speakers_output" file)
 
 ### 1. In the standard scenario, the model is able to perform well in the detection of active speakers and the separation of the multi-speaker sources. (E.g. interview_2_speaker_output interview_2_speakers_output)
  
