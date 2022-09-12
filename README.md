@@ -1,7 +1,7 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 
 # avobjects
-## This repository is re-implementation for "Self-Supervised Learning of audio-visual objects from video" which from ECCV20 paper.
+# This repository is re-implementation for "Self-Supervised Learning of audio-visual objects from video" which from ECCV20 paper.
 
 
 # In the re-implementation project, the focus is on testing the performance of the model for different kinds of video resources.
