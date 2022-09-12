@@ -4,15 +4,15 @@
 RE-Implementation for ECCV20 paper "Self-Supervised Learning of audio-visual objects from video"
 
 
-### Tested the performance of different video sources.
+## Tested the performance of different video sources.
 
-# 1. Works great in simple scenarios. [interview_2_speaker_output, interview_2_speakers_output]
+## 1. Works great in simple scenarios. [interview_2_speaker_output, interview_2_speakers_output]
  
-# 2. Different speakers under the continuous video (only one speaker in the scene): failed to distinguish well. [news_1_speaker_output]
+## 2. Different speakers under the continuous video (only one speaker in the scene): failed to distinguish well. [news_1_speaker_output]
 
-# 3. Not very good for multiple speakers (n_speaker>4) [sing_5_speaks_output]
+## 3. Not very good for multiple speakers (n_speaker>4) [sing_5_speaks_output]
 
-# 4. Poor results when multiple audios are similar. Failure to distinguish similar audio from different speakers. [chorus_4_speakers_output]
+## 4. Poor results when multiple audios are similar. Failure to distinguish similar audio from different speakers. [chorus_4_speakers_output]
 
 
 
