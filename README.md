@@ -1,19 +1,19 @@
 ![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)
 
 # avobjects
-This repository is re-implementation for "Self-Supervised Learning of audio-visual objects from video" which from ECCV20 paper.
+##This repository is re-implementation for "Self-Supervised Learning of audio-visual objects from video" which from ECCV20 paper.
 
 
 # In the re-implementation project, the focus is on testing the performance of the model for different kinds of video resources.
-(The corresponding example can be found in the "**_speakers_output" file)
+##(The corresponding example can be found in the "**_speakers_output" file)
 
-## 1. In the standard scenario, the model is able to perform well in the detection of active speakers and the separation of the multi-speaker sources. (E.g. interview_2_speaker_output interview_2_speakers_output)
+### 1. In the standard scenario, the model is able to perform well in the detection of active speakers and the separation of the multi-speaker sources. (E.g. interview_2_speaker_output interview_2_speakers_output)
  
-## 2. The model cannot distinguish between the different speakers who appear in the scene in sequence. This means that the sound source and the speaker in the scene should be relatively fixed. (E.g. news_1_speaker_output)
+### 2. The model cannot distinguish between the different speakers who appear in the scene in sequence. This means that the sound source and the speaker in the scene should be relatively fixed. (E.g. news_1_speaker_output)
 
-## 3. It is not robust enough to detect multiple speakers in the same scene, especially after the number of speakers is> 4. (E.g. sing_5_speaks_output)
+### 3. It is not robust enough to detect multiple speakers in the same scene, especially after the number of speakers is> 4. (E.g. sing_5_speaks_output)
 
-## 4. The model does not distinguish well between different speakers with similar sound sources, for example, the chorus. (E.g. chorus_4_speakers_output)
+### 4. The model does not distinguish well between different speakers with similar sound sources, for example, the chorus. (E.g. chorus_4_speakers_output)
 
 
 
