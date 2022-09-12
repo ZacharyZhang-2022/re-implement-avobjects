@@ -4,7 +4,7 @@
 RE-Implementation for ECCV20 paper "Self-Supervised Learning of audio-visual objects from video"
 
 
-##Tested the performance of different video sources.
+## Tested the performance of different video sources.
 
 
 1. Different speakers under the continuous video (only one will appear on the screen): failed to distinguish well.
